@@ -8,18 +8,18 @@ public class Main {
         System.out.println(p.product(6.2,7.5));
 
     }
-}
-class Product{
-    public int product(int x, int y) {
-        int ans =  x*y;
-        return ans;
-    }
-    public int product(int x, int y, int z) {
-        int ans = x*y*z;
-        return ans;
-    }
-    public double product(double x, double y) {
-        double ans = x*y;
-        return ans;
+   static class Product{
+        public int product(int x, int y) {
+            int ans =  x*y;
+            return ans;
+        }
+        public int product(int x, int y, int z) {
+            int ans = x*y*z;
+            return ans;
+        }
+        public double product(double x, double y) {
+            double ans = x*y;
+            return ans;
+        }
     }
 }
