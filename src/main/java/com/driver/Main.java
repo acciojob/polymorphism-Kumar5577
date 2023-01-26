@@ -10,16 +10,15 @@ public class Main {
     }
    static class Product{
         public int product(int x, int y) {
-            int ans =  x*y;
-            return ans;
+            return x*y;
+
         }
         public int product(int x, int y, int z) {
-            int ans = x*y*z;
-            return ans;
+            return x*y*z;
         }
         public double product(double x, double y) {
-            double ans = x*y;
-            return ans;
+
+            return x*y;
         }
     }
 }
